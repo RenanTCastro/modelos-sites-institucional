@@ -4,7 +4,7 @@ import "./Header.css";
 // import Logo from "../../Assets/Logo.png";
 
 export default function Header() {
-    const Logo = "https://sitextec.com.br/wp-content/themes/sitex/assets/images/logoheader.webp"
+    const Logo = "https://nutriluanapetry.com.br/wp-content/uploads/2023/05/08-1-1024x376.webp"
     return (
         <div className="header-container">
             <img src={Logo} alt="Logotipo" className="header-logo"/>
