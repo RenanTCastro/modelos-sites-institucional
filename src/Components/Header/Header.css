@@ -1,0 +1,43 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #536f57;
+    padding: 20px 100px;
+}
+
+.header-logo {
+    width: 200px;
+}
+
+.header-nav-items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    color: #f6fff5;
+    font-size: large;
+    font-weight: bold;
+}
+
+.header-nav-items p:hover {
+    color: #acc7b0;
+    cursor: pointer;
+}
+
+.header-contact-button {
+    background-color: #f6fff5;
+    color: #536f57;
+    border: solid 2px #f6fff5;
+    padding: 0 50px;
+    border-radius: 40px;
+    font-size: large;
+    font-weight: bold;
+    line-height: 0;
+    height: 50px;
+}
+
+.header-contact-button:hover {
+    background-color: #536f57;
+    color: #f6fff5;
+    cursor: pointer;
+}
