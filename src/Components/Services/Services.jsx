@@ -6,7 +6,7 @@ export default function Services() {
     
     return (
         <div className="services-container">
-            <h1 className="services-title">Conheça meus serviços</h1>
+            <h1 className="services-title">Minhas especialidades</h1>
             <div className="services-cards-container">
                 <button className="services-card-button"> - </button>
                 <div className="services-card">

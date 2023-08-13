@@ -1,0 +1,40 @@
+
+.home-container{
+}
+.home-background-image{
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.4) sepia(0.4);
+}
+
+.home-overlay-container{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    text-align: start;
+    color: white;
+    font-size: 22px;
+    width: 50%;
+}
+
+.home-contact-button{
+    background-color: #f6fff5;
+    color: #536f57;
+    border: none;
+    width: 400px;
+    padding: 0 50px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: bold;
+    line-height: 0;
+    height: 50px;
+    transition: transform 0.3s, background-color 0.2s;
+}
+
+.home-contact-button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
